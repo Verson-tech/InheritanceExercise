@@ -10,6 +10,7 @@ namespace Inheritance
         {
 
         }
+        public string Name { get; set; }
         public bool IsMammal { get; set;}
 
         public int NumberOfLegs { get; set; }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 
 namespace Inheritance
 {
@@ -43,7 +44,7 @@ namespace Inheritance
 
             foreach (var a in myAnimals)
             {
-                Console.WriteLine(a.Color);
+                Console.WriteLine($"The {a.Name} is {a.Color} and has {a.NumberOfLegs} legs.");
             }
         }
     }

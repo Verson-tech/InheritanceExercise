@@ -8,6 +8,7 @@ namespace Inheritance
     {
         public Bird()
         {
+            Name = "penguin";
             IsMammal = false;
             NumberOfLegs = 2;
             Color = "black";

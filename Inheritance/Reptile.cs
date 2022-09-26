@@ -9,6 +9,7 @@ namespace Inheritance
 
         public Reptile() //Constructor
         {
+            Name = "lizard";
             IsMammal = false;
             NumberOfLegs = 0;
             Color = "black";
